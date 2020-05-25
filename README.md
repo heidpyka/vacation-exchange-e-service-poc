@@ -1,5 +1,5 @@
 # Vacation Exchange E-service PoC
-This application is a PoC of an e-service for vacation exchange management using LDAP directory for authentication and MongoDB as the application database. In this PoC, the LDAP directory was simulated using OpenDJ Community Edition 2.6.4. The MongoDB database used was MongoDB Atlas.
+This application is a PoC of an e-service for vacation exchange management using LDAP directory for authentication (with passport-ldapauth) and MongoDB as the application database (with mongoose). In this PoC, the LDAP directory was simulated using OpenDJ Community Edition 2.6.4. The MongoDB database used was MongoDB Atlas.
 
 ### Running the PoC in development mode
 1. Clone repo.
